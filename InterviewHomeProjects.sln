@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{65BB52E8-2CF2-49BB-9205-B41FF4B51733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webAPI", "webAPI\webAPI.csproj", "{5E25EC62-EA79-49EB-9C91-901EA435238F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactMVC", "ReactMVC\ReactMVC.csproj", "{4B329BBE-E644-4043-BA66-1AB3EE1CBABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65BB52E8-2CF2-49BB-9205-B41FF4B51733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BB52E8-2CF2-49BB-9205-B41FF4B51733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BB52E8-2CF2-49BB-9205-B41FF4B51733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BB52E8-2CF2-49BB-9205-B41FF4B51733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E25EC62-EA79-49EB-9C91-901EA435238F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E25EC62-EA79-49EB-9C91-901EA435238F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E25EC62-EA79-49EB-9C91-901EA435238F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E25EC62-EA79-49EB-9C91-901EA435238F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B329BBE-E644-4043-BA66-1AB3EE1CBABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B329BBE-E644-4043-BA66-1AB3EE1CBABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B329BBE-E644-4043-BA66-1AB3EE1CBABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B329BBE-E644-4043-BA66-1AB3EE1CBABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

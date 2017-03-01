@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="jsxcontent" class=""></div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/main")
+}
+@section styles{
+    <style type="text/css">
+        .person-card {
+            border-radius: 5px;
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            box-shadow: 5px 4px 4px darkgrey;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 20px;
+            border: 1px solid;
+            
+            position: relative;
+        }
+
+            .person-card:hover {
+                background-color: lightblue;
+            }
+
+        .cardcontent {
+            min-width: 200px;
+            margin: 0;
+            position: absolute; 
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+}
