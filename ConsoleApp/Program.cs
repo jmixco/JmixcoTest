@@ -14,7 +14,7 @@ namespace ConsoleApp
         public static Dictionary<string, JObject> locationDictionary;
         static void Main(string[] args)
         {
-            #region json 
+            #region read json from file 
             string json = null;
             string path = $"{System.AppDomain.CurrentDomain.BaseDirectory }personal.json";
 
@@ -49,6 +49,8 @@ namespace ConsoleApp
             int underStaffedCount = understaffedDepartmentCount(o);
 
             departmentDictionary = new Dictionary<string, JObject>();
+
+
             //disctinct departments
             distinctDepartmentList = new List<string>();
             distinctDepartments(o);
@@ -76,7 +78,9 @@ namespace ConsoleApp
             Console.ReadLine();
         }
 
-
+        //This function counts only the understaffed departments. 
+        //If an understaffed department appears multiple times, it wil be counted as 1
+        //This does not count the personal related to a understaffed department 
         static int understaffedDepartmentCount(JObject obj)
         {
             int count = 0;
