@@ -1,0 +1,64 @@
+﻿{
+  "personal": [
+    {
+      "name": "Person",
+      "last": "A",
+      "job": "Accountant",
+      "department": {
+        "name": "Finance",
+        "personal": 3,
+        "hasBudget": true,
+        "understaffed": false,
+        "location": {
+          "floor": 1,
+          "building": 1
+        }
+      }
+    },
+    {
+      "name": "Person",
+      "last": "B",
+      "job": "Engineer",
+      "department": {
+        "name": "Finance",
+        "personal": 3,
+        "hasBudget": true,
+        "understaffed": false,
+        "location": {
+          "floor": 1,
+          "building": 1
+        }
+      }
+    },
+    {
+      "name": "Person",
+      "last": "C",
+      "job": "Accountant",
+      "department": {
+        "name": "Finance",
+        "personal": 3,
+        "hasBudget": true,
+        "understaffed": false,
+        "location": {
+          "floor": 3,
+          "building": 4
+        }
+      }
+    },
+    {
+      "name": "Person",
+      "last": "D",
+      "job": "Engineer",
+      "department": {
+        "name": "Engineering",
+        "personal": 1,
+        "hasBudget": false,
+        "understaffed": true,
+        "location": {
+          "floor": 2,
+          "building": 1
+        }
+      }
+    }
+  ]
+}
